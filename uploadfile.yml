@@ -5,5 +5,5 @@
    - name: 创建目录
      shell: mkdir -p /data/iot
    - name: upload file.
-     copy: src=/data/apache-iotdb-0.9.3-incubating-bin.zip dest=/data/iot
+     copy: src=/Users/liang/Downloads/apache-iotdb-0.9.3-incubating-bin.zip dest=/data/iot
     
