@@ -1,4 +1,5 @@
-- hosts: all
+- name: test ping cmd
+  hosts: all
   connection: local
   tasks:
   - name: Check the ping on the server.
