@@ -7,8 +7,8 @@
    - name: upload file.
      copy: src={{path}} dest=/data/iot
    - name: 解压
-     shell: chdir=/data/iot tar -zxvf apache-iotdb-0.9.3-incubating-bin.zip
+     shell: cd /data/iot && tar -zxvf apache-iotdb-0.9.3-incubating-bin.zip
    - name: 启动iotdb  
-     shell: chdir=/data/iot/apache-iotdb-0.9.3-incubating nohup sbin/start-server.sh >> nohup.log  2>&1 &
+     shell: cd /data/iot/apache-iotdb-0.9.3-incubating && nohup sbin/start-server.sh >> nohup.log  2>&1 &
    - name: 查看
      shell: ps aux|grep start-server
