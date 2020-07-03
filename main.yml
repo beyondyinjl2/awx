@@ -1,4 +1,4 @@
-- name: test ping cmd
+- name: test date cmd
   hosts: all
   connection: local
   tasks:
