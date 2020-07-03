@@ -1,8 +1,7 @@
 - name: file upload
-  hosts: all
+  hosts: 114.116.194.17
   connection: local
   tasks:
-   file:
    - name: 创建目录
      shell: mkdir -p /data/iot
    - name: upload file.
