@@ -2,10 +2,10 @@
   hosts: 114.116.194.17
   connection: local
   file:
-  - path: /data/iot
-    state: directory
-    mode: '0755'
+   - path: /data/iot
+     state: directory
+     mode: '0755'
   tasks:
-  - name: upload file.
-    copy: src=/data/apache-iotdb-0.9.3-incubating-bin.zip dest=/data/iot
+   - name: upload file.
+     copy: src=/data/apache-iotdb-0.9.3-incubating-bin.zip dest=/data/iot
     
