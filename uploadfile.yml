@@ -1,5 +1,6 @@
 - name: file upload
   hosts: all
+  connection: paramiko
   tasks:
    - name: 创建目录
      shell: mkdir -p /data/iot
