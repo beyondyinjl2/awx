@@ -1,5 +1,5 @@
 - name: file upload
-  hosts: all
+  hosts: 172.16.72.133
   connection: local
   tasks:
    - name: 创建目录
