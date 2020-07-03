@@ -1,4 +1,4 @@
-- name: file upload
+- name: iotdb 上传 解压 启动
   hosts: all
   connection: paramiko
   tasks:
