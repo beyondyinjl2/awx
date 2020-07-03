@@ -11,4 +11,4 @@
    - name: 启动iotdb  
      shell: cd /data/iot/apache-iotdb-0.9.3-incubating && nohup sbin/start-server.sh >> nohup.log  2>&1 &
    - name: 查看
-     shell: ps aux|grep start-server
+     shell: ps aux|grep iotdb
